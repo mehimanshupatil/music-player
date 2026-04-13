@@ -1,0 +1,8 @@
+---
+import AppLayout from '@/layouts/AppLayout.astro';
+import App from '@/components/player/App';
+---
+
+<AppLayout title="Musik — Local Music Player">
+  <App client:only="react" />
+</AppLayout>
